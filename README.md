@@ -4,10 +4,11 @@ This project provides a notebook example to demonstrates how to deploy LLM model
 
 ## Architecture
 
+The solution architecture is shown in the diagram below. It consists of the following main steps:
+
 ![architecture.png](architecture.png)
 
 The solution architecture is shown in the diagram. It consists of the following main steps:
-
 1. Download the GGUF model from HuggingFace and upload it to S3. This blog will use the Llama 3 8B GGUF model as an example.
 
 2. Prepare key files required for BYOC in the Notebook:
