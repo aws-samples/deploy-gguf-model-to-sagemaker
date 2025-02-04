@@ -1,4 +1,4 @@
-# Deploying GGUF Format LLM Models Using Amazon SageMaker
+# Deploying GGUF Format LLM Model Using Amazon SageMaker
 
 This project provides a notebook example to demonstrates how to deploy LLM models in [GGUF](https://github.com/ggerganov/ggml/blob/master/docs/gguf.md) format using Amazon SageMaker's Bring Your Own Container (BYOC) approach. By integrating [llama.cpp](https://github.com/ggerganov/llama.cpp), you can run efficient model inference services on SageMaker.
 
