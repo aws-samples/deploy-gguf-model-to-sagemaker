@@ -4,10 +4,11 @@ This project provides a notebook example to demonstrates how to deploy LLM model
 
 ## Architecture
 
+The solution architecture is shown in the diagram below. It consists of the following main steps:
+
 ![architecture.png](architecture.png)
 
 The solution architecture is shown in the diagram. It consists of the following main steps:
-
 1. Download the GGUF model from HuggingFace and upload it to S3. This blog will use the Llama 3 8B GGUF model as an example.
 
 2. Prepare key files required for BYOC in the Notebook:
@@ -142,11 +143,9 @@ After testing, if you no longer need the running inference endpoint, please exec
 
 [4] https://sagemaker-examples.readthedocs.io/en/latest/advanced_functionality/scikit_bring_your_own/scikit_bring_your_own.html
 
-[5] https://github.com/Mozilla-Ocho/llamafile/blob/main/llama.cpp/server/api_like_OAI.py
+[5] https://github.com/aws-samples/genai-llm-cpu-sagemaker/tree/main/docker
 
-[6] https://github.com/aws-samples/genai-llm-cpu-sagemaker/tree/main/docker
-
-[7] https://community.aws/content/2eazHYzSfcY9flCGKsuGjpwqq1B
+[6] https://community.aws/content/2eazHYzSfcY9flCGKsuGjpwqq1B
 
 
 ## Security
