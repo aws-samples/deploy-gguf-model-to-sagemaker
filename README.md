@@ -20,7 +20,7 @@ The solution architecture is shown in the diagram below. It consists of the foll
    ```
 
    - `Dockerfile`: Describes how to build the container, which will be based on the llama.cpp container.
-   - `main.py:` A WSGI HTTP server based on the Flask framework, used to interact with llama.cpp and meet the hosting requirements of SageMaker inference nodes. It accepts POST requests sent to the `/invocations` and `/ping`endpoints, and starts server.sh to run the llama.cpp service after the model is loaded.
+   - `main.py:` A WSGI HTTP server based on the Flask framework, used to interact with llama.cpp and meet the hosting requirements of SageMaker inference nodes. It accepts POST requests sent to the `/invocations` and `/ping` endpoints, and starts server.sh to run the llama.cpp service after the model is loaded.
    - `requirements.txt`: Python-related dependencies.
    - `serve`: The entry file for SageMaker inference nodes. It starts the WSGI server of main.py and related processes using port 8080, and interacts with the llama.cpp service.
    - `server.sh`: Starts the llama.cpp server using port 8181.
@@ -136,12 +136,11 @@ After testing, if you no longer need the running inference endpoint, please exec
 
 [1] https://github.com/ggerganov/ggml/blob/master/docs/gguf.md
 [2] https://github.com/ggerganov/llama.cpp
-[3] [https://aws.amazon.com/](https://aws.amazon.com/cn/sagemaker/?nc=sn&loc=0&refid=dabe1ae7-29e2-4723-bff5-9de3949e2c17)[sagemaker/](https://aws.amazon.com/sagemaker/)
-[4] https://docs.aws.amazon.com/sagemaker/latest/dg/adapt-inference-container.html
-[5] https://sagemaker-examples.readthedocs.io/en/latest/advanced_functionality/scikit_bring_your_own/scikit_bring_your_own.html
-[6] https://github.com/Mozilla-Ocho/llamafile/blob/main/llama.cpp/server/api_like_OAI.py
-[7] https://github.com/aws-samples/genai-llm-cpu-sagemaker/tree/main/docker
-[8] https://community.aws/content/2eazHYzSfcY9flCGKsuGjpwqq1B
+[3] https://docs.aws.amazon.com/sagemaker/latest/dg/adapt-inference-container.html
+[4] https://sagemaker-examples.readthedocs.io/en/latest/advanced_functionality/scikit_bring_your_own/scikit_bring_your_own.html
+[5] https://github.com/Mozilla-Ocho/llamafile/blob/main/llama.cpp/server/api_like_OAI.py
+[6] https://github.com/aws-samples/genai-llm-cpu-sagemaker/tree/main/docker
+[7] https://community.aws/content/2eazHYzSfcY9flCGKsuGjpwqq1B
 
 
 ## Security
