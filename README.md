@@ -143,9 +143,11 @@ After testing, if you no longer need the running inference endpoint, please exec
 
 [4] https://sagemaker-examples.readthedocs.io/en/latest/advanced_functionality/scikit_bring_your_own/scikit_bring_your_own.html
 
-[5] https://github.com/aws-samples/genai-llm-cpu-sagemaker/tree/main/docker
+[5] https://github.com/ggerganov/llama.cpp/blob/gguf-python/examples/server/api_like_OAI.py
 
-[6] https://community.aws/content/2eazHYzSfcY9flCGKsuGjpwqq1B
+[6] https://github.com/aws-samples/genai-llm-cpu-sagemaker/tree/main/docker
+
+[7] https://community.aws/content/2eazHYzSfcY9flCGKsuGjpwqq1B
 
 
 ## Security
