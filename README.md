@@ -4,7 +4,7 @@ This project provides a notebook example to demonstrates how to deploy LLM model
 
 ## Architecture
 
-The solution architecture is shown in the diagram below. It consists of the following main steps:
+The solution architecture is shown in the diagram below.
 
 ![architecture.png](architecture.png)
 
