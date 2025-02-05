@@ -8,7 +8,7 @@ The solution architecture is shown in the diagram below. It consists of the foll
 
 ![architecture.png](architecture.png)
 
-The solution architecture is shown in the diagram. It consists of the following main steps:
+It consists of the following main steps:
 1. Download the GGUF model from HuggingFace and upload it to S3. This blog will use the Llama 3 8B GGUF model as an example.
 
 2. Prepare key files required for BYOC in the Notebook:
@@ -70,7 +70,7 @@ The solution architecture is shown in the diagram. It consists of the following 
 
 ## Deployment Guide
 
-1. Import  `deploy-gguf-model-to-sagemaker.ipynb` file into Notebook instance and open it.
+1. Import  [`deploy-gguf-model-to-sagemaker.ipynb`](./deploy-gguf-model-to-sagemaker.ipynb) file into Notebook instance and open it.
 2. Modify the corresponding variables and execute each step in Notebook.
 
 ### Standard Invocation
