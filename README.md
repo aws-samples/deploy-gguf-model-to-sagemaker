@@ -92,7 +92,6 @@ print(inference['choices'][0]['text'])
 ### Streaming Invocation
 
 ```python
-python
 llama_args = {
     "prompt": "What are the most popular tourist attractions in Beijing?",
     "max_tokens": 512,
