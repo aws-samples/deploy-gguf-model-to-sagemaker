@@ -26,7 +26,7 @@ It consists of the following main steps:
    - `main.py:` A WSGI HTTP server based on the Flask framework, used to interact with llama.cpp and meet the hosting requirements of SageMaker inference nodes. It accepts POST requests sent to the `/invocations` and `/ping` endpoints, and starts server.sh to run the llama.cpp service after the model is loaded.
    - `requirements.txt`: Python-related dependencies.
    - `serve`: The entry file for SageMaker inference nodes. It starts the WSGI server of main.py and related processes using port 8080, and interacts with the llama.cpp service.
-   - `server.sh`: Starts the llama.cpp server using port 8181.
+   - `server.sh`: Starts the llama.cpp server using port 8081.
 
    The trigger logic for its execution and HTTP request flow are shown in the diagram.
 
